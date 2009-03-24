@@ -13,7 +13,8 @@ Here are rudimentary instructions for those who are familiar with FTP. More deta
   * The server is listening to port 2121 on the wifi network interface.
   * The username is "anonymous" and any password will be accepted
   * Your wifi IP address is shown from the main SwiFTP screen as a convenience
-  * Any FTP client should work. If not, please report this, it's probably a SwiFTP bug: [http://code.google.com/p/swiftp/issues/list]
+  * *You MUST use PASV mode.* Normal FTP mode (non-PASV) does not work, thought this feature will be added soon.
+  * Any FTP client should work. If not, please report this, it's probably a SwiFTP bug: [http://code.google.com/p/swiftp/issues/list]. Please include as many details as possible about the software and operating system that you are using.
 
 = Windows XP/2000 =
 
