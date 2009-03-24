@@ -1,0 +1,31 @@
+#summary How to access the SwiFTP server in various environments
+
+= Introduction =
+
+This page explains how to use and connect to the SwiFTP server on your Android phone. It assumes you've already downloaded and installed the program.
+
+Questions can be addressed to the SwiFTP-users group: [http://groups.google.com/group/swiftp-users] if they're not answered here.
+
+= General instructions =
+
+Here are rudimentary instructions for those who are familiar with FTP. More detailed instructions with 
+
+  * The server is listening to port 2121 on the wifi network interface.
+  * The username is "anonymous" and any password will be accepted
+  * Your wifi IP address is shown from the main SwiFTP screen as a convenience
+  * Any FTP client should work. If not, please report this, it's probably a SwiFTP bug: [http://code.google.com/p/swiftp/issues/list]
+
+= Windows XP/2000 =
+
+Follow these steps:
+
+  * Start Menu -> Run.
+  * In the box that appears type "explorer", press enter.
+  * Enter the Server URL as it appears inside the SwiFTP application. This is the thing that starts with "ftp://".
+  * If you are prompted for a username, enter "anonymous". If you are prompted for a password, enter anything you like.
+  * Rock out.
+
+
+= Windows Vista =
+
+Someone please help with this one. Wiki!
