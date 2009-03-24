@@ -16,6 +16,12 @@ Here are rudimentary instructions for those who are familiar with FTP. More deta
   * *You MUST use PASV mode.* Normal FTP mode (non-PASV) does not work, thought this feature will be added soon.
   * Any FTP client should work. If not, please report this, it's probably a SwiFTP bug: [http://code.google.com/p/swiftp/issues/list]. Please include as many details as possible about the software and operating system that you are using.
 
+Modern browsers have at least read-only FTP support. Try punching in your server URL (the "ftp://...." thing) into the address bar of your browser to get read-only access to your files.
+
+== Android filesystem permissions and the /sdcard directory ==
+
+If you're running a T-Mobile G1 like I am, you don't have write permissions to much of your filesystem. This is an unfortunate fact of life that has been inflicted on us by T-Mobile for business reasons. Most likely you want to store your stuff in the /sdcard directory.
+
 = Windows XP/2000 =
 
 Follow these steps:
@@ -31,6 +37,6 @@ Follow these steps:
 
 Someone please help with this one. Wiki!
 
-= Mac OS X +
+= Mac OS X =
 
 Someone with a Mac please help out with this one and add instructions here. Thank you!
