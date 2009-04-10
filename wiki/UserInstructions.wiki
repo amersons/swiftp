@@ -32,6 +32,14 @@ Follow these steps:
   * If you are prompted for a username, enter "anonymous". If you are prompted for a password, enter anything you like.
   * Rock out.
 
+Here's a tip from a user named Byron for easy Windows integration:
+
+_I easily set up Windows Explorer to show my G1 as a folder. This works
+on both XP and Vista. Right click on My Computer and select Add a
+Network Location. I typed in "ftp://
+myusername:mypassword@192.169.1.100:2121/sdcard" and named it "My G1."
+When I click on My G1 in Explorer now, it takes me straight to my
+sdcard without having to enter username and password each time._
 
 = Windows Vista =
 
