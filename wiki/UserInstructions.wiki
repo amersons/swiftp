@@ -13,7 +13,7 @@ Questions can be addressed to the SwiFTP-users group: [http://groups.google.com/
 
 Here are rudimentary instructions for those who are familiar with FTP. More detailed instructions with 
 
-  * The server is listening to port 2121 on the wifi network interface.
+  * The server is listening to port 2121 on the wifi network interface, unless you've configured something different.
   * Your wifi IP address is shown from the main SwiFTP screen as a convenience
   * Any FTP client should work. If not, please report this, it's probably a SwiFTP bug: [http://code.google.com/p/swiftp/issues/list]. Please include as many details as possible about the software and operating system that you are using.
 
