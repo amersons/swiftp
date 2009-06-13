@@ -35,11 +35,10 @@ Follow these steps:
 
 Here's a tip from a user named Byron for easy Windows integration:
 
-_I easily set up Windows Explorer to show my G1 as a folder. This works
-on both XP and Vista. Right click on My Computer and select Add a
-Network Location. I typed in "ftp://
-myusername:mypassword@192.169.1.100:2121/sdcard" and named it "My G1."
-When I click on My G1 in Explorer now, it takes me straight to my
+_I easily set up Windows Explorer to show my G1 as a folder. This works on both
+XP and Vista. Right click on My Computer and select Add a Network Location. I
+typed in `ftp://myusername:mypassword@192.169.1.100:2121/sdcard` and named it
+"My G1." When I click on My G1 in Explorer now, it takes me straight to my
 sdcard without having to enter username and password each time._
 
 = Windows Vista =
@@ -48,4 +47,21 @@ Someone please help with this one. Wiki!
 
 = Mac OS X =
 
-Someone with a Mac please help out with this one and add instructions here. Thank you!
+== Read-Only Access ==
+
+The Finder has built in read-only support for FTP. Select "Go &rarr; Connect to
+Server..." or press &#x2318;K and enter the Server URL as displayed by SwiFTP
+(e.g., `ftp://192.168.1.100:2121/`). You'll be prompted for your SwiFTP
+username and password.
+
+== Read-Write Access ==
+
+If you need to add or delete files from your device, you'll need a third party
+FTP client. We recommend [http://cyberduck.ch/ Cyberduck] (free), but
+commercial clients like [http://www.panic.com/transmit/ Transmit] should work
+as well.
+
+As before, simply point the client to your phone's IP address, and don't
+forget to change the port number to match your SwiFTP settings (2121 by
+default). If you're using Cyberduck, you can just type "Server URL" shown by
+SwiFTP into the Quick Connect box.
