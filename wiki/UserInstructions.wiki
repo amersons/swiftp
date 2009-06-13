@@ -21,7 +21,7 @@ Modern browsers have at least read-only FTP support. Try punching in your server
 
 == Android filesystem permissions and the /sdcard directory ==
 
-If you're running a T-Mobile G1 like I am, you don't have write permissions to much of your filesystem. This is an unfortunate fact of life that has been inflicted on us by T-Mobile for business reasons. Most likely you want to store your stuff in the /sdcard directory.
+If you're running a T-Mobile G1 like I am, you don't have write permissions to much of your filesystem. This is an unfortunate fact of life that has been inflicted on us by T-Mobile for business reasons. Most likely you want to store your stuff in the /sdcard directory. *Update:* there are ways to get root access on your G1. Google can find the details.
 
 = Windows XP/2000 =
 
