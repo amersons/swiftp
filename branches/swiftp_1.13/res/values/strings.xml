@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright 2009 David Revell
+
+This file is part of SwiFTP.
+
+SwiFTP is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+SwiFTP is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with SwiFTP.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources>
+<string name="name_version">SwiFTP Server 1.12</string>
+<string name="menu_byline">By Dave Revell and contributors</string>
+
+<string name="add_user">Add User</string>
+<string name="manage_users">Manage Users</string>
+
+<string name="swiftp_name">SwiFTP</string>
+<string name="server_options">Server Options</string>
+
+
+<string name="menu_url">http://www.swiftp.org</string>
+<string name="start_server"><b>Start</b></string>
+<string name="stop_server"><b>Stop</b></string>
+
+
+<string name="no_url_yet">none yet</string>
+<string name="server_status">Server status:</string>
+<string name="my_url_is">Wifi URL:</string>
+<string name="cannot_start_until_wifi">No wifi</string>
+<string name="enable_wifi"><b>Enable wifi</b></string>
+<string name="disable_wifi">Disable wifi</string>
+<string name="wifi_waiting">Wifi waiting</string>
+<string name="wifi_status">Wifi status:</string>
+<string name="last_error">Last error:</string>
+<string name="cant_get_url">unknown</string>
+<string name="running">running</string>
+<string name="stopped">stopped</string>
+<string name="unknown">unknown</string>
+<string name="session_monitor">Session monitor enabled:</string>
+<string name="server_log">Server log enabled:</string>
+<string name="submit_bug_reports">&quot;Submit bug reports: &quot;</string>
+<string name="ok">OK</string>
+<string name="instructions_label">Instructions</string>
+<string name="setup_label">Setup</string>
+<string name="save_settings">Save</string>
+<string name="config_username">Username:</string>
+<string name="config_password">Password:</string>
+<string name="config_portnum">Port number:</string>
+<string name="username_validation_error">The username must consist of 1 or more letters. No other characters are allowed.</string>
+<string name="password_validation_error">The password must consist of 1 or more alphanumeric characters. No other characters are allowed.</string>
+<string name="port_validation_error">The port number must be in the range 1 to 65535.</string>
+<string name="wifi_state_receiver_label">WifiStateReceiver</string>
+<string name="enabled">enabled</string>
+<string name="disabled">disabled</string>
+<string name="waiting">waiting</string>
+<string name="error_dialog_label">SwiFTP error</string>
+<string name="the_error_was">The error was:</string>
+<string name="stay_within_folder">Stay within folder (e.g. "/sdcard"):</string>
+<string name="cancel">Cancel</string>
+<string name="accept_connections_from_net">Accept connections from the net</string>
+<string name="accept_connections_from_wifi">Accept connections from wifi</string>
+<string name="at_least_one_listener">Please check either the wifi or net checkbox</string>
+<string name="chrootDir_validation_error">The folder to stay within is either invalid \
+or nonexistent.</string> 
+<string name="violates_chroot">550 Server settings prevent leaving directory\r\n</string>
+<string name="must_config">Before SwiFTP can run, a username and password must be set up.</string>
+<string name="instructions_text">\
+Thanks for using SwiFTP! Here are some brief usage instructions. More information can be \
+found at http://www.swiftp.org.\n\n\
+\
+You should have been prompted to enter a username and password when you started SwiFTP \
+for the first time. You must use this username and password when accessing the server. \
+This information can be changed later by clicking the Setup button from the main screen.\
+\n\n\
+\
+SwiFTP allows you to enable and disable wifi from the main control screen. However, this \
+only works if you are using a network that you have connected to before.\n\n\
+\
+For power and security reasons, it's recommended that the server be stopped after use.\n\n\
+\
+If you're watching the server log, don't be alarmed by messages about ignored or unrecognized commands, these are normal as \
+long as they don't cause undesired behavior.\n\n\
+\
+If something is not working the way you expect it to, please report it to me at www.swiftp.org.\n\n\
+\
+Thanks for using SwiFTP, and look for more improvements soon.\n\n\
+</string>
+<string name="error_dialog_text">\
+SwiFTP has encountered the following error: \n\
+\n\
+<b>%%%Replace_Here%%%</b>\n\
+\n\
+If you think that this error should not have occurred, it would be very helpful if you \
+would email <b>swiftp-devel @ googlegroups.com</b> or visit <b>http://www.swiftp.org</b> 
+and report this as a bug (go to the <b>"Issues"</b> \
+section).\n\
+\n\
+Thanks very much for your help!\n\
+\n\
+- The SwiFTP team\n\
+</string>
+<string name="config_header">SwiFTP Settings</string>
+<string name="config_intro">These settings control the behavior of the SwiFTP server. They \
+will take effect when the server is started or restarted. They will be saved, but can be \
+changed later by pressing the <b>Setup</b> button.</string>
+<string name="user_password_intro">To log in, clients will have to provide this information.</string>
+
+
+</resources>
